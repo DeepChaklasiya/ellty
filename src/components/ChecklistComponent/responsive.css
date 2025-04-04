@@ -1,0 +1,22 @@
+/* Ensure the component is responsive */
+@media (max-width: 400px) {
+  .checklist-container {
+    width: 90%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .checklist-items {
+    gap: 12px;
+  }
+  
+  .checklist-label {
+    font-size: 14px;
+  }
+  
+  .checklist-button {
+    padding: 12px 0;
+    font-size: 14px;
+  }
+}

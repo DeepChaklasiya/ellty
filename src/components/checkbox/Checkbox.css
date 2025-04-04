@@ -1,0 +1,36 @@
+/* Hide the default checkbox */
+.checklist-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Style for checked state */
+.checklist-checkbox-checked {
+    background-color: #2469F6;
+    border: 1px solid #2469F6;
+}
+
+.checklist-checkbox-unchecked {
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+}
+
+.checklist-checkbox:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(36, 105, 246, 0.4);
+}
+
+.checkbox-checked-hover {
+    background-color: #5087F8;
+    border: 1px solid #5087F8;
+}
+
+.checkbox-unchecked-hover {
+    border: 1px solid #BDBDBD;
+}
+

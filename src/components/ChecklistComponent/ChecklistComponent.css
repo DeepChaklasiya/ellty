@@ -1,0 +1,64 @@
+.checklist-container {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  padding: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.checklist-items {
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+}
+
+.checklist-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 10px 10px;
+}
+
+.checklist-label {
+  font-size: 16px;
+  color: #333333;
+  cursor: pointer;
+}
+
+
+
+.checklist-divider {
+  height: 1px;
+  background-color: #EEEEEE;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.checklist-button {
+  background-color: #FFCE22;
+  color: #333333;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 0;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 10px 0px;
+}
+
+.checklist-button:hover {
+  background-color: #FFD84D;
+}
+
+/* Ensure the component is centered in the App for demo purposes */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #F5F5F5;
+}
